@@ -1,0 +1,18 @@
+{
+ "passengerInfo":{
+	"name"	: "Suman Kumar",
+	"email"	: "sumansharp@gmail.com",
+	"source": "Patna",
+	"destination" : "Bengaluru",
+	"travelDate"  : "2022-07-30",
+	"departureTime": "5.0 AM",
+	"arrivalTime" : "3.0 PM",
+	"fare" : 1000.0
+
+  },
+  "paymentInfo":{
+	"accountNo" : "acc1",
+	"cardType"  : "DEBIT"
+
+   }
+}

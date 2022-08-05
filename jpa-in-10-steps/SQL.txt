@@ -1,0 +1,15 @@
+create table suman_1
+(id number(3), name varchar2(20), role varchar2(20));
+
+select * from suman_1;
+commit;
+
+drop table suman_1;
+
+CREATE SEQUENCE id_seq
+    INCREMENT BY 10
+    START WITH 10
+    MINVALUE 10
+    MAXVALUE 1000
+    CYCLE
+    CACHE 2;

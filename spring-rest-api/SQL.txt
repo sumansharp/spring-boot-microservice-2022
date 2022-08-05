@@ -1,0 +1,9 @@
+drop table suman_1;
+
+create table suman_1
+(id number(3), title varchar2(100), description varchar2(100));
+
+select * from suman_1;
+commit;
+
+drop table suman_1;
